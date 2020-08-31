@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="dasoft.files.processor.processorsource">
+      <ProcessorSource
+            class="dasoft.files.processor.deleteEmptyLines.Controller"
+            extensions=".rb .java"
+            hasResults="true"
+            name="Delete Empty Lines"
+            onlyWorkspace="false">
+      </ProcessorSource>
+   </extension>
+
+</plugin>

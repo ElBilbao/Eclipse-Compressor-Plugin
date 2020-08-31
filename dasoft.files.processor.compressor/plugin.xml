@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="dasoft.files.processor.processorsource">
+      <ProcessorSource
+            class="dasoft.files.processor.compressor.Controller"
+            extensions=".txt"
+            hasResults="false"
+            name="Compress Large Files"
+            onlyWorkspace="true">
+      </ProcessorSource>
+   </extension>
+
+</plugin>

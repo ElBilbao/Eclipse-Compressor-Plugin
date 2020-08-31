@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Compressor
+Bundle-SymbolicName: dasoft.files.processor.compressor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: dasoft.files.processor.compressor
+Bundle-RequiredExecutionEnvironment: JavaSE-10
+Require-Bundle: dasoft.files.processor;bundle-version="1.0.0"
